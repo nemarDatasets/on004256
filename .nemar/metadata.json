@@ -1,31 +1,76 @@
 {
   "version": "2.0",
-  "dataset_id": "on004256",
-  "source": "openneuro",
-  "source_id": "ds004256",
+  "pipeline_stage": "validated",
   "title": " Encoding of Sound Source Elevation in Human Cortex",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Ole Bialas": {},
     "Marc Schoenwiesner": {},
     "Burkhard Maess": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004256.v1.0.5",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004256",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004256",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.6.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "beh",
     "eeg"
   ],
-  "datatypes": [
-    "beh",
-    "eeg"
-  ]
+  "resource_type_specific": "Neuroimaging Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset comprises neuroimaging data from two auditory experiments investigating the cortical encoding of sound source elevation in human subjects. Participants were presented with noise bursts from loudspeakers positioned at various elevations while undergoing behavioral testing and neural recording. The dataset includes localization tests, a deviant detection task (Experiment 1), and a one-back working memory task with spatial localization (Experiment 2), conducted in a hemi-anechoic chamber to control acoustic conditions.",
+  "methods_description": "Data were collected from two experiments conducted in a hemi-anechoic chamber. Experiment 1 (Deviant Detection) involved 23 subjects who heard adapter-probe noise bursts at different elevations with deviant detection trials. Experiment 2 (One-Back) involved 30 subjects who performed a one-back task with white noise stimuli presented through headphones and loudspeakers at various elevations. Localization tests preceded both experiments using pink noise bursts from loudspeakers at elevations ranging from -50° to +50° and 10° azimuth.",
+  "keywords": [
+    {
+      "term": "Auditory Cortex",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001303"
+    },
+    {
+      "term": "Sound Localization",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013017"
+    },
+    {
+      "term": "spatial hearing"
+    },
+    {
+      "term": "elevation encoding"
+    },
+    {
+      "term": "neuroimaging"
+    },
+    {
+      "term": "deviant detection"
+    },
+    {
+      "term": "working memory"
+    }
+  ],
+  "source_hash": "f4a44c4adfcc5e6159c4d5f22f8e7403d63b41d46f39f3feecf8d8442432846d"
 }
