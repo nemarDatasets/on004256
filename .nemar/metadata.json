@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": " Encoding of Sound Source Elevation in Human Cortex",
-  "description": "This dataset contains EEG recordings from two experiments investigating the cortical encoding of sound source elevation in humans. Subjects were presented with noise bursts from loudspeakers positioned at various elevations in a hemi-anechoic chamber, and were also tested on their ability to localize elevated sound sources. Experiment I used a deviant detection paradigm, while Experiment II used a one-back task involving sound elevation discrimination.",
-  "methods_description": "Subjects underwent localization tests using pink noise bursts from loudspeakers at various elevations and a fixed azimuth. In Experiment I (deviant detection), subjects heard a long adapter noise from one loudspeaker followed by a short probe noise from another loudspeaker at different elevations, and behavioral responses to deviants were recorded. In Experiment II (one-back task), subjects heard white noise through open headphones followed by a noise burst from a loudspeaker at varying elevations, with occasional target trials requiring localization responses.",
+  "description": "This EEG dataset contains recordings from two experiments in which participants listened to noise bursts presented from loudspeakers at different elevations in a hemi-anechoic chamber. Experiment 1 was a deviant detection task with adapter and probe sounds, and Experiment 2 was a one-back localization task. Participants first completed a behavioral test of their ability to localize elevated sound sources. The dataset supports research on how sound source elevation is encoded in human auditory cortex.",
+  "methods_description": "Pink noise bursts were presented from loudspeakers at several elevations at 10° azimuth to the listener's right. Localization tests preceded each experiment. Experiment 1 (sub-001 to sub-023) used a long adapter noise followed by a short probe burst from another loudspeaker, with deviant trials requiring a button press. Experiment 2 (sub-100 to sub-129) used long white noise over open headphones followed by a noise burst from a loudspeaker. About 5% of trials were targets, followed by a beep prompting the subject to localize the sound.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,7 +16,9 @@
       "term": "EEG"
     },
     {
-      "term": "sound localization"
+      "term": "Sound Localization",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013017"
     },
     {
       "term": "Auditory Cortex",
@@ -24,16 +26,13 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D001303"
     },
     {
-      "term": "elevation perception"
+      "term": "sound source elevation"
+    },
+    {
+      "term": "adaptation"
     },
     {
       "term": "deviant detection"
-    },
-    {
-      "term": "one-back task"
-    },
-    {
-      "term": "psychoacoustics"
     }
   ],
   "related_identifiers": [
@@ -60,7 +59,7 @@
     "eeg"
   ],
   "sizes": [
-    "19.5 GB (160 files)"
+    "18.17 GB (160 files)"
   ],
   "formats": [
     ".eeg",
